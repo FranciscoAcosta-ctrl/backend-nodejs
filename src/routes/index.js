@@ -2,7 +2,7 @@ import { Router } from "express";
 const router = Router();
 
 router.get("/", (req, res) => {
-  res.render("index", {title: 'Param from backend'});
+  res.render("index", {title: 'Title received by the backend'});
 });
 
 router.get("/about", (req, res) => {
